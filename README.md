@@ -30,14 +30,6 @@ PHP 8.1+, `ext-json`. `ext-curl` is used when present, PHP streams otherwise. No
 
 ## Installation
 
-> **Until the package is on Packagist**, add the repository to your `composer.json` first:
->
-> ```json
-> "repositories": [{ "type": "vcs", "url": "https://github.com/survelium/agent-analytics-php" }]
-> ```
->
-> and require the development line: `composer require survelium/agent-analytics-php:^0.1@dev`.
-
 ```bash
 composer require survelium/agent-analytics-php
 ```
